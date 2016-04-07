@@ -38,17 +38,7 @@
 
 .t2 {
     text-align: right;
-    font-size: 20px;
-}
-
-.tcol2:hover {
-    background: red;
-    color: white;
-}
-
-.tcol1:hover {
-    background: blue;
-    color: white;
+    font-size: 20 px;
 }
 
 h2 {
@@ -57,10 +47,6 @@ h2 {
 
 h3 {
     color: blue;
-}
-
-.box {
-    padding: 20px;
 }
 
 a:hover {
