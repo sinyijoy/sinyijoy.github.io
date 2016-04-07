@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+twocolumn 拷貝
 
 <head>
     <meta charset="utf-8">
@@ -7,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>sinyi作業二:HTML履歷</title>
+    <title>sinyi作業五:三欄式版面</title>
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -15,6 +16,9 @@
     <!-- Custom Fonts -->
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/twocolumn.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -44,7 +48,7 @@
                         <a href="../hw1/hw.html">作業一</a>
                     </li>
                     <li>
-                        <a href="#hw2">作業二</a>
+                        <a href="../hw2/hw.html">作業二</a>
                     </li>
                     <li>
                         <a href="../hw3/hw.html">作業三</a>
@@ -53,7 +57,7 @@
                         <a href="../hw4/hw.html">作業四</a>
                     </li>
                     <li>
-                        <a href="../hw5/hw.html">作業五</a>
+                        <a href="#hw5">作業五</a>
                     </li>
                     <li>
                         <a href="../hw6/hw.html">作業六</a>
@@ -68,68 +72,33 @@
         <!-- /.container -->
     </nav>
     <!-- Page Content -->
-    <a name="hw2"></a>
+    <a name="hw5"></a>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-sm-12">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">作業二：HTML寫履歷</h2>
-                <p class="lead">用韓文撰寫履歷! </p>
-                <h2 align="center">이력서 履歷書</h2>
-                <p>
-                    <table align="center" border="3">
-                        <tr>
-                            <td>
-                                <h3>이름 名字</h3>
-                            </td>
-                            <td>
-                                <h2>황심이</h2>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h3>성별 性别</h3>
-                            </td>
-                            <td>
-                                <h2>야</h2>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h3>국적 國籍</h3>
-                            </td>
-                            <td>
-                                <h2>대만</h2>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h3>주소 住所</h3>
-                            </td>
-                            <td>
-                                <h2>타이페이</h2>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h3>외국어 능력 外國語能力</h3>
-                            </td>
-                            <td>
-                                <h2>중국어、한국어、광동어</h2>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h3>취미 興趣</h3>
-                            </td>
-                            <td>
-                                <h2>여행</h2>
-                            </td>
-                        </tr>
-                    </table>
-                </p>
+                <h2 class="section-heading">作業五：用CSS float概念做三欄式版面</h2>
             </div>
+        </div>
+        <div class="row" id="hw5">
+            <div class="header">My website</div>
+            <div class="aside">
+                <ul>
+                    <li><a href="#">link1</a></li>
+                    <li><a href="#">link2</a></li>
+                    <li><a href="#">link3</a></li>
+                </ul>
+            </div>
+            <div class="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam temporibus a incidunt blanditiis dignissimos magnam at corporis eveniet placeat delectus iste quis non ex est, impedit earum itaque. Cumque, voluptates.</div>
+            <div class="right">
+                <ul>
+                    <li><img class="pic" src="../img/dog.png"></li>
+                    <li><img class="pic" src="../img/ipad.png"></li>
+                    <li><img class="pic" src="../img/phones.png"></li>
+                </ul>
+            </div>
+            <div class="footer">copyright</div>
         </div>
     </div>
     <!-- /.container -->
@@ -146,7 +115,7 @@
                             <a href="../hw1/hw.html" class="btn btn-default btn-lg"><i class="fa fa-pencil fa-fw"></i> <span class="network-name">作業一</span></a>
                         </li>
                         <li>
-                            <a href="#hw2" class="btn btn-default btn-lg"><i class="fa fa-pencil fa-fw"></i> <span class="network-name">作業二</span></a>
+                            <a href="../hw2/hw.html" class="btn btn-default btn-lg"><i class="fa fa-pencil fa-fw"></i> <span class="network-name">作業二</span></a>
                         </li>
                         <li>
                             <a href="../hw3/hw.html" class="btn btn-default btn-lg"><i class="fa fa-pencil fa-fw"></i> <span class="network-name">作業三</span></a>
@@ -155,7 +124,7 @@
                             <a href="../hw4/hw.html" class="btn btn-default btn-lg"><i class="fa fa-pencil fa-fw"></i> <span class="network-name">作業四</span></a>
                         </li>
                         <li>
-                            <a href="../hw5/hw.html" class="btn btn-default btn-lg"><i class="fa fa-pencil fa-fw"></i> <span class="network-name">作業五</span></a>
+                            <a href="#hw5" class="btn btn-default btn-lg"><i class="fa fa-pencil fa-fw"></i> <span class="network-name">作業五</span></a>
                         </li>
                         <li>
                             <a href="#../hw6/hw.html" class="btn btn-default btn-lg"><i class="fa fa-pencil fa-fw"></i> <span class="network-name">作業六</span></a>
@@ -185,7 +154,7 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#hw2">作業二</a>
+                            <a href="../hw2/hw.html">作業二</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
@@ -197,7 +166,7 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="../hw5/hw.html">作業五</a>
+                            <a href="#hw5">作業五</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
@@ -217,6 +186,10 @@
     <script src="../js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 
 </html>
