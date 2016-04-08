@@ -299,8 +299,14 @@ li a:hover:not(.active) {
 .fd {
     padding: 20px;
     font-size: 20px;
-    border-width: 2px 0px 2px 0px;
-    border-color: #B2ADAD;
+    border-width: 2px 0px 0px 0px;
+    width: 100%;
+}
+
+.fd:hover{
+    content: "";
+    clear: both;
+    display: block; 
 }
 
 .last {
